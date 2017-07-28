@@ -8,7 +8,7 @@ def one_hot_encode(x):
     
     labels_vecs = preprocessing.LabelBinarizer()
     labels_vecs.fit_transform(labels)
-    return lavels_vecs
+    return labels_vecs
     
 def one_hot_encoder(x):
     """   
